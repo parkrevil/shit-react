@@ -1,11 +1,16 @@
-import { Fragment } from 'react';
-
 function App() {
+  const name = '리액트';
+
   return (
-    <>
-      <h1>리액트</h1>
-      <h2>뉴비입니다</h2>
-    </>
+    <div style={{
+      backgroundColor: '#000',
+      color: '#fff',
+      fontSize: '32px',
+      fontWeight: 'bold',
+      padding: '16px',
+    }}>
+      {name === '리액트' && <h1>리액트</h1>}
+    </div>
   );
 }
 
