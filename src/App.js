@@ -1,15 +1,11 @@
+import './App.css';
+
 function App() {
   const name = '리액트';
 
   return (
-    <div style={{
-      backgroundColor: '#000',
-      color: '#fff',
-      fontSize: '32px',
-      fontWeight: 'bold',
-      padding: '16px',
-    }}>
-      {name === '리액트' && <h1>리액트</h1>}
+    <div className="react">
+      {name === '리액트' && <h1>{name}</h1>}
     </div>
   );
 }
