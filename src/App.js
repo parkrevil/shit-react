@@ -1,11 +1,10 @@
 import { Component } from 'react';
 import './App.css';
+import Say from './Say';
 
 class App extends Component {
   render() {
-    const name = 'react';
-
-    return <div className="react">{name}</div>
+    return <Say/>
   }
 }
 
