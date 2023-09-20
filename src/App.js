@@ -1,13 +1,12 @@
+import { Component } from 'react';
 import './App.css';
 
-function App() {
-  const name = '리액트';
+class App extends Component {
+  render() {
+    const name = 'react';
 
-  return (
-    <div className="react">
-      {name === '리액트' && <h1>{name}</h1>}
-    </div>
-  );
+    return <div className="react">{name}</div>
+  }
 }
 
-export default App;
+export default App
